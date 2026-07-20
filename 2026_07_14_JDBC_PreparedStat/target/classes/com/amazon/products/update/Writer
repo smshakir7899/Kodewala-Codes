@@ -1,0 +1,300 @@
+1001,Wireless Mouse,Electronics,799,50
+1002,Bluetooth Keyboard,Electronics,1499,35
+1003,Laptop Stand,Accessories,999,40
+1004,USB Hub,Accessories,699,60
+1005,Power Bank 10000mAh,Electronics,1299,25
+1006,USB Type-C Cable,Accessories,399,100
+1007,HDMI Cable,Accessories,599,80
+1008,Laptop Backpack,Bags,1999,30
+1009,Webcam HD,Electronics,2499,20
+1010,Gaming Mouse,Electronics,1799,25
+1011,Mechanical Keyboard,Electronics,3499,15
+1012,Bluetooth Speaker,Electronics,2999,18
+1013,Earbuds Pro,Electronics,3999,22
+1014,Smart Watch,Electronics,4999,20
+1015,Phone Charger,Accessories,799,75
+1016,Wireless Charger,Accessories,1499,28
+1017,Portable SSD 512GB,Storage,5499,16
+1018,External Hard Disk 1TB,Storage,4999,18
+1019,Pen Drive 64GB,Storage,699,90
+1020,Pen Drive 128GB,Storage,999,70
+1021,Office Chair,Furniture,6999,10
+1022,Study Table,Furniture,4999,12
+1023,Desk Lamp,Home,899,35
+1024,Wall Clock,Home,699,40
+1025,Coffee Mug,Kitchen,299,120
+1026,Water Bottle,Kitchen,499,100
+1027,Electric Kettle,Home Appliances,1499,20
+1028,Mixer Grinder,Home Appliances,3499,15
+1029,Rice Cooker,Home Appliances,2299,18
+1030,Air Fryer,Home Appliances,5499,12
+1031,Pressure Cooker,Kitchen,1999,30
+1032,Gas Stove,Kitchen,3999,10
+1033,Ceiling Fan,Home Appliances,2899,14
+1034,Table Fan,Home Appliances,1899,16
+1035,Room Heater,Home Appliances,2499,15
+1036,Vacuum Cleaner,Home Appliances,6999,8
+1037,Steam Iron,Home Appliances,1399,22
+1038,Hair Dryer,Personal Care,1299,24
+1039,Hair Trimmer,Personal Care,1599,18
+1040,Electric Toothbrush,Personal Care,1999,20
+1041,Yoga Mat,Sports,799,45
+1042,Dumbbells 5kg,Sports,2499,20
+1043,Football,Sports,999,30
+1044,Cricket Bat,Sports,1899,18
+1045,Badminton Racket,Sports,1499,25
+1046,Basketball,Sports,1099,20
+1047,Skipping Rope,Sports,299,80
+1048,Camping Tent,Outdoor,4999,8
+1049,Torch Light,Outdoor,699,35
+1050,Travel Backpack,Bags,2499,15
+1051,Laptop Sleeve,Bags,899,40
+1052,Notebook,Stationery,199,100
+1053,Ball Pen Pack,Stationery,149,200
+1054,Desk Organizer,Stationery,499,50
+1055,Calculator,Stationery,799,25
+1056,Whiteboard,Stationery,1299,12
+1057,Printer Ink,Office,999,35
+1058,Laser Printer,Office,14999,5
+1059,Scanner,Office,6999,8
+1060,Monitor 24 Inch,Electronics,10999,12
+1061,LED Monitor 27 Inch,Electronics,14999,8
+1062,Graphics Card 8GB,Computer Parts,45999,4
+1063,RAM 16GB,Computer Parts,4999,20
+1064,SSD 1TB,Computer Parts,6999,18
+1065,CPU Cooler,Computer Parts,2499,16
+1066,Motherboard,Computer Parts,8999,10
+1067,Processor i5,Computer Parts,18999,8
+1068,SMPS 650W,Computer Parts,3999,14
+1069,Cabinet Mid Tower,Computer Parts,3499,12
+1070,WiFi Router,Networking,2499,20
+1071,WiFi Extender,Networking,1999,18
+1072,Network Switch,Networking,2999,10
+1073,CCTV Camera,Security,3499,12
+1074,Video Doorbell,Security,7999,8
+1075,Smart Lock,Security,9999,6
+1076,Projector,Electronics,24999,5
+1077,Sound Bar,Electronics,7999,12
+1078,Home Theater,Electronics,15999,6
+1079,Drone Camera,Electronics,49999,3
+1080,Action Camera,Electronics,18999,7
+1081,Tripod Stand,Photography,1499,20
+1082,Camera Bag,Photography,1999,15
+1083,DSLR Lens 50mm,Photography,9999,8
+1084,Memory Card 128GB,Storage,1499,35
+1085,Memory Card 256GB,Storage,2499,20
+1086,Bluetooth Adapter,Accessories,599,50
+1087,USB Extension Cable,Accessories,399,60
+1088,Monitor Stand,Furniture,1999,20
+1089,Phone Holder,Accessories,299,80
+1090,Car Mobile Holder,Automotive,499,60
+1091,Car Vacuum Cleaner,Automotive,1999,15
+1092,Tyre Inflator,Automotive,2499,10
+1093,Car Charger,Automotive,699,45
+1094,Tool Kit,Tools,2499,18
+1095,Electric Drill,Tools,3499,12
+1096,Air Compressor,Tools,8999,6
+1097,Garden Hose,Garden,1499,20
+1098,Plant Pot Set,Garden,999,30
+1099,Water Purifier,Home Appliances,12999,8
+1100,Air Purifier,Home Appliances,10999,10
+1001,Wireless Mouse,Electronics,799,50
+1002,Bluetooth Keyboard,Electronics,1499,35
+1003,Laptop Stand,Accessories,999,40
+1004,USB Hub,Accessories,699,60
+1005,Power Bank 10000mAh,Electronics,1299,25
+1006,USB Type-C Cable,Accessories,399,100
+1007,HDMI Cable,Accessories,599,80
+1008,Laptop Backpack,Bags,1999,30
+1009,Webcam HD,Electronics,2499,20
+1010,Gaming Mouse,Electronics,1799,25
+1011,Mechanical Keyboard,Electronics,3499,15
+1012,Bluetooth Speaker,Electronics,2999,18
+1013,Earbuds Pro,Electronics,3999,22
+1014,Smart Watch,Electronics,4999,20
+1015,Phone Charger,Accessories,799,75
+1016,Wireless Charger,Accessories,1499,28
+1017,Portable SSD 512GB,Storage,5499,16
+1018,External Hard Disk 1TB,Storage,4999,18
+1019,Pen Drive 64GB,Storage,699,90
+1020,Pen Drive 128GB,Storage,999,70
+1021,Office Chair,Furniture,6999,10
+1022,Study Table,Furniture,4999,12
+1023,Desk Lamp,Home,899,35
+1024,Wall Clock,Home,699,40
+1025,Coffee Mug,Kitchen,299,120
+1026,Water Bottle,Kitchen,499,100
+1027,Electric Kettle,Home Appliances,1499,20
+1028,Mixer Grinder,Home Appliances,3499,15
+1029,Rice Cooker,Home Appliances,2299,18
+1030,Air Fryer,Home Appliances,5499,12
+1031,Pressure Cooker,Kitchen,1999,30
+1032,Gas Stove,Kitchen,3999,10
+1033,Ceiling Fan,Home Appliances,2899,14
+1034,Table Fan,Home Appliances,1899,16
+1035,Room Heater,Home Appliances,2499,15
+1036,Vacuum Cleaner,Home Appliances,6999,8
+1037,Steam Iron,Home Appliances,1399,22
+1038,Hair Dryer,Personal Care,1299,24
+1039,Hair Trimmer,Personal Care,1599,18
+1040,Electric Toothbrush,Personal Care,1999,20
+1041,Yoga Mat,Sports,799,45
+1042,Dumbbells 5kg,Sports,2499,20
+1043,Football,Sports,999,30
+1044,Cricket Bat,Sports,1899,18
+1045,Badminton Racket,Sports,1499,25
+1046,Basketball,Sports,1099,20
+1047,Skipping Rope,Sports,299,80
+1048,Camping Tent,Outdoor,4999,8
+1049,Torch Light,Outdoor,699,35
+1050,Travel Backpack,Bags,2499,15
+1051,Laptop Sleeve,Bags,899,40
+1052,Notebook,Stationery,199,100
+1053,Ball Pen Pack,Stationery,149,200
+1054,Desk Organizer,Stationery,499,50
+1055,Calculator,Stationery,799,25
+1056,Whiteboard,Stationery,1299,12
+1057,Printer Ink,Office,999,35
+1058,Laser Printer,Office,14999,5
+1059,Scanner,Office,6999,8
+1060,Monitor 24 Inch,Electronics,10999,12
+1061,LED Monitor 27 Inch,Electronics,14999,8
+1062,Graphics Card 8GB,Computer Parts,45999,4
+1063,RAM 16GB,Computer Parts,4999,20
+1064,SSD 1TB,Computer Parts,6999,18
+1065,CPU Cooler,Computer Parts,2499,16
+1066,Motherboard,Computer Parts,8999,10
+1067,Processor i5,Computer Parts,18999,8
+1068,SMPS 650W,Computer Parts,3999,14
+1069,Cabinet Mid Tower,Computer Parts,3499,12
+1070,WiFi Router,Networking,2499,20
+1071,WiFi Extender,Networking,1999,18
+1072,Network Switch,Networking,2999,10
+1073,CCTV Camera,Security,3499,12
+1074,Video Doorbell,Security,7999,8
+1075,Smart Lock,Security,9999,6
+1076,Projector,Electronics,24999,5
+1077,Sound Bar,Electronics,7999,12
+1078,Home Theater,Electronics,15999,6
+1079,Drone Camera,Electronics,49999,3
+1080,Action Camera,Electronics,18999,7
+1081,Tripod Stand,Photography,1499,20
+1082,Camera Bag,Photography,1999,15
+1083,DSLR Lens 50mm,Photography,9999,8
+1084,Memory Card 128GB,Storage,1499,35
+1085,Memory Card 256GB,Storage,2499,20
+1086,Bluetooth Adapter,Accessories,599,50
+1087,USB Extension Cable,Accessories,399,60
+1088,Monitor Stand,Furniture,1999,20
+1089,Phone Holder,Accessories,299,80
+1090,Car Mobile Holder,Automotive,499,60
+1091,Car Vacuum Cleaner,Automotive,1999,15
+1092,Tyre Inflator,Automotive,2499,10
+1093,Car Charger,Automotive,699,45
+1094,Tool Kit,Tools,2499,18
+1095,Electric Drill,Tools,3499,12
+1096,Air Compressor,Tools,8999,6
+1097,Garden Hose,Garden,1499,20
+1098,Plant Pot Set,Garden,999,30
+1099,Water Purifier,Home Appliances,12999,8
+1100,Air Purifier,Home Appliances,10999,10
+1001,Wireless Mouse,Electronics,799,50
+1002,Bluetooth Keyboard,Electronics,1499,35
+1003,Laptop Stand,Accessories,999,40
+1004,USB Hub,Accessories,699,60
+1005,Power Bank 10000mAh,Electronics,1299,25
+1006,USB Type-C Cable,Accessories,399,100
+1007,HDMI Cable,Accessories,599,80
+1008,Laptop Backpack,Bags,1999,30
+1009,Webcam HD,Electronics,2499,20
+1010,Gaming Mouse,Electronics,1799,25
+1011,Mechanical Keyboard,Electronics,3499,15
+1012,Bluetooth Speaker,Electronics,2999,18
+1013,Earbuds Pro,Electronics,3999,22
+1014,Smart Watch,Electronics,4999,20
+1015,Phone Charger,Accessories,799,75
+1016,Wireless Charger,Accessories,1499,28
+1017,Portable SSD 512GB,Storage,5499,16
+1018,External Hard Disk 1TB,Storage,4999,18
+1019,Pen Drive 64GB,Storage,699,90
+1020,Pen Drive 128GB,Storage,999,70
+1021,Office Chair,Furniture,6999,10
+1022,Study Table,Furniture,4999,12
+1023,Desk Lamp,Home,899,35
+1024,Wall Clock,Home,699,40
+1025,Coffee Mug,Kitchen,299,120
+1026,Water Bottle,Kitchen,499,100
+1027,Electric Kettle,Home Appliances,1499,20
+1028,Mixer Grinder,Home Appliances,3499,15
+1029,Rice Cooker,Home Appliances,2299,18
+1030,Air Fryer,Home Appliances,5499,12
+1031,Pressure Cooker,Kitchen,1999,30
+1032,Gas Stove,Kitchen,3999,10
+1033,Ceiling Fan,Home Appliances,2899,14
+1034,Table Fan,Home Appliances,1899,16
+1035,Room Heater,Home Appliances,2499,15
+1036,Vacuum Cleaner,Home Appliances,6999,8
+1037,Steam Iron,Home Appliances,1399,22
+1038,Hair Dryer,Personal Care,1299,24
+1039,Hair Trimmer,Personal Care,1599,18
+1040,Electric Toothbrush,Personal Care,1999,20
+1041,Yoga Mat,Sports,799,45
+1042,Dumbbells 5kg,Sports,2499,20
+1043,Football,Sports,999,30
+1044,Cricket Bat,Sports,1899,18
+1045,Badminton Racket,Sports,1499,25
+1046,Basketball,Sports,1099,20
+1047,Skipping Rope,Sports,299,80
+1048,Camping Tent,Outdoor,4999,8
+1049,Torch Light,Outdoor,699,35
+1050,Travel Backpack,Bags,2499,15
+1051,Laptop Sleeve,Bags,899,40
+1052,Notebook,Stationery,199,100
+1053,Ball Pen Pack,Stationery,149,200
+1054,Desk Organizer,Stationery,499,50
+1055,Calculator,Stationery,799,25
+1056,Whiteboard,Stationery,1299,12
+1057,Printer Ink,Office,999,35
+1058,Laser Printer,Office,14999,5
+1059,Scanner,Office,6999,8
+1060,Monitor 24 Inch,Electronics,10999,12
+1061,LED Monitor 27 Inch,Electronics,14999,8
+1062,Graphics Card 8GB,Computer Parts,45999,4
+1063,RAM 16GB,Computer Parts,4999,20
+1064,SSD 1TB,Computer Parts,6999,18
+1065,CPU Cooler,Computer Parts,2499,16
+1066,Motherboard,Computer Parts,8999,10
+1067,Processor i5,Computer Parts,18999,8
+1068,SMPS 650W,Computer Parts,3999,14
+1069,Cabinet Mid Tower,Computer Parts,3499,12
+1070,WiFi Router,Networking,2499,20
+1071,WiFi Extender,Networking,1999,18
+1072,Network Switch,Networking,2999,10
+1073,CCTV Camera,Security,3499,12
+1074,Video Doorbell,Security,7999,8
+1075,Smart Lock,Security,9999,6
+1076,Projector,Electronics,24999,5
+1077,Sound Bar,Electronics,7999,12
+1078,Home Theater,Electronics,15999,6
+1079,Drone Camera,Electronics,49999,3
+1080,Action Camera,Electronics,18999,7
+1081,Tripod Stand,Photography,1499,20
+1082,Camera Bag,Photography,1999,15
+1083,DSLR Lens 50mm,Photography,9999,8
+1084,Memory Card 128GB,Storage,1499,35
+1085,Memory Card 256GB,Storage,2499,20
+1086,Bluetooth Adapter,Accessories,599,50
+1087,USB Extension Cable,Accessories,399,60
+1088,Monitor Stand,Furniture,1999,20
+1089,Phone Holder,Accessories,299,80
+1090,Car Mobile Holder,Automotive,499,60
+1091,Car Vacuum Cleaner,Automotive,1999,15
+1092,Tyre Inflator,Automotive,2499,10
+1093,Car Charger,Automotive,699,45
+1094,Tool Kit,Tools,2499,18
+1095,Electric Drill,Tools,3499,12
+1096,Air Compressor,Tools,8999,6
+1097,Garden Hose,Garden,1499,20
+1098,Plant Pot Set,Garden,999,30
+1099,Water Purifier,Home Appliances,12999,8
+1100,Air Purifier,Home Appliances,10999,10

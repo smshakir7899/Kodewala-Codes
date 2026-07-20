@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>maven-sample</groupId>
+  <artifactId>com.kodewala.sample</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>com.kodewala.sample</name>
+  <url>http://maven.apache.org</url>
+<!-- Maven is a Build Tool used to compile code, manage dependencies,
+     run tests, and package the application. 
+     
+     Maven downloads required JAR files from remote repositories. 
+      
+     Millions of JAR files are available in the Maven Central Repository. 
+     
+     Add a dependency in pom.xml, and Maven automatically downloads it. 
+
+     Downloaded dependencies are stored in the Local Maven Repository:
+     C:\Users\<username>\.m2\repository 
+
+ 	 Maven first checks the local .m2 repository.
+     If the dependency is not found, it downloads it from the configured remote repository. 
+
+ 	 Internet is required only for the first download or when updating a dependency version. 
+
+	 GroupId identifies the organization/package.
+     Example: com.kodewala.sample 
+
+	 ArtifactId identifies the project name.
+     Example: maven-sample 
+
+	 To use a newer library version, update the version in pom.xml.
+     Maven automatically downloads the new version. 
+
+	 Most companies use a Private Maven Repository instead of directly accessing Maven Central. 
+
+	 New libraries are typically scanned for security before being added to the company's Private Repository. 
+
+	 settings.xml (inside the .m2 folder) tells Maven which repository
+     (public or private) it should connect to. 
+
+	 Private repositories usually require authentication such as a username and password. -->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

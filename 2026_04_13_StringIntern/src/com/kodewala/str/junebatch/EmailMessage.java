@@ -7,3 +7,4 @@ public class EmailMessage
 	public static String MSG3=" and your order is currently being ";
 	public static String MSG4="\nYou will be recived the order by ";
 }
+

@@ -1,0 +1,91 @@
+package com.zepto.order.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity(name = "orders")
+public class OrderEntity
+{
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	private int orderId;
+	private int customerId;
+	private String productId;
+	private int quantity;
+	private String paymentMethod;
+	private String shippingAdress;
+
+	public int getId()
+	{
+		return id;
+	}
+
+	public void setId(int id)
+	{
+		this.id = id;
+	}
+
+	public int getOrderId()
+	{
+		return orderId;
+	}
+
+	public void setOrderId(int orderId)
+	{
+		this.orderId = orderId;
+	}
+
+	public int getCustomerId()
+	{
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId)
+	{
+		this.customerId = customerId;
+	}
+
+	public String getProductId()
+	{
+		return productId;
+	}
+
+	public void setProductId(String productId)
+	{
+		this.productId = productId;
+	}
+
+	public int getQuantity()
+	{
+		return quantity;
+	}
+
+	public void setQuantity(int quantity)
+	{
+		this.quantity = quantity;
+	}
+
+	public String getPaymentMethod()
+	{
+		return paymentMethod;
+	}
+
+	public void setPaymentMethod(String paymentMethod)
+	{
+		this.paymentMethod = paymentMethod;
+	}
+
+	public String getShippingAdress()
+	{
+		return shippingAdress;
+	}
+
+	public void setShippingAdress(String shippingAdress)
+	{
+		this.shippingAdress = shippingAdress;
+	}
+
+}

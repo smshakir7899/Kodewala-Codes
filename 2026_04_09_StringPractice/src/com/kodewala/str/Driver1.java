@@ -15,7 +15,7 @@ public class Driver1
 		
 		//CASE 2nd
 		String s3 = "Bengaluru"; 
-		String s4 = "Bengaluru"; // A new object is created in the SCP because Java is case-sensitive 
+		String s4 = "bengaluru"; // A new object is created in the SCP because Java is case-sensitive 
 		
 		System.out.println(s3 == s4);
 		

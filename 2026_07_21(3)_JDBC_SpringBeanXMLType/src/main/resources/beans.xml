@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean class="com.amazon.user.beans.Customer" id="customer1">
+		<property name="customerId" value="CUS1">
+		</property>
+		<property name="customerName" value="Shakir">
+		</property>
+		<property name="city" value="Jodhpur">
+		</property>
+
+
+	</bean>
+	<bean class="com.amazon.user.beans.Order" id="order1">
+		<property name="orderId" value="ORD1">
+		</property>
+		<property name="quantity" value="2">
+		</property>
+		<property name="status" value="true">
+		</property>
+
+
+	</bean>
+	<bean class="com.amazon.user.beans.Product" id="product1">
+		<property name="productId" value="PRD1">
+		</property>
+		<property name="productName" value="Iphone 17">
+		</property>
+		<property name="price" value="70000">
+		</property>
+
+	</bean>
+
+</beans>

@@ -9,7 +9,7 @@ public class Intern
 		String s2 = " Academy"; // --> scp
 		
 		String s3= s1+s2; // --> Heap
-		// runtime concating
+		// runtime concatination
 		
 		//Intern is used to transfer object from Heap to SCP.
 		

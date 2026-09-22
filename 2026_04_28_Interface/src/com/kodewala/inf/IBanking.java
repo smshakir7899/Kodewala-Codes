@@ -1,7 +1,8 @@
 package com.kodewala.inf;
 
 // an interface is 100% abstract
-public interface IBanking // in industry people use I before class name
+public interface IBanking 
+// in industry people use I before class name
 // so use this convention in interface
 {
 	public abstract void pay();

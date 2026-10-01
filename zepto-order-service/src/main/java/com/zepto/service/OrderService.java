@@ -50,7 +50,11 @@ public class OrderService
 		{
 			System.out.println("OrderService.acceptOrder():::::::::::::::order placedd sending msg to kafka");
 			String data = objToJson(orderResponse);
-			kafkaService.storingMessage("order_place", data);
+			for (int i = 0; i < 1000; i++)
+			{
+				kafkaService.storingMessage("order-status", data);
+			}
+
 		}
 		return orderResponse;
 	}

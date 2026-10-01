@@ -12,7 +12,9 @@ public class KafkaService
 
 	public void storingMessage(String topic, String message)
 	{
-System.out.println("KafkaService.storingMessage()::::::::: SENDING MSGTO KAFKA");
-		kafkaTemplate.send(topic, message);
+		System.out.println("KafkaService.storingMessage()::::::::: SENDING MSGTO KAFKA");
+
+		String key = "ORD-1";
+		kafkaTemplate.send(topic, key, message);
 	}
 }

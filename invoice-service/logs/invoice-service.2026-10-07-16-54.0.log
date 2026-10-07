@@ -1,0 +1,3 @@
+2026-10-07 16:54:18.594 [http-nio-8080-exec-7] INFO  c.f.customer.service.InvoiceService - Creating invoice for customer: Sayyed
+2026-10-07 16:54:18.619 [http-nio-8080-exec-7] INFO  c.f.customer.service.InvoiceService - Invoice saved successfully with database ID: 25
+2026-10-07 16:54:18.619 [http-nio-8080-exec-7] INFO  c.f.customer.service.InvoiceService - Invoice response created successfully for invoice ID: 25

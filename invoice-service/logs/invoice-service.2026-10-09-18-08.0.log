@@ -1,0 +1,65 @@
+2026-10-09 18:08:47.161 [main] INFO  c.f.c.InvoiceServiceApplication - Starting InvoiceServiceApplication using Java 21.0.3 with PID 1716 (C:\Users\mohdf\OneDrive\Attachments\Desktop\9th March Batch\invoice-service\target\classes started by mohdf in C:\Users\mohdf\OneDrive\Attachments\Desktop\9th March Batch\invoice-service)
+2026-10-09 18:08:47.168 [main] DEBUG c.f.c.InvoiceServiceApplication - Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-10-09 18:08:47.170 [main] INFO  c.f.c.InvoiceServiceApplication - The following 1 profile is active: "dev"
+2026-10-09 18:08:48.340 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-09 18:08:48.345 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-09 18:08:48.520 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interface.
+2026-10-09 18:08:48.549 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-09 18:08:48.550 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-09 18:08:48.570 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.flipkart.customer.repository.InvoiceRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-09 18:08:48.570 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2026-10-09 18:08:48.662 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.simpleDiscoveryProperties
+2026-10-09 18:08:48.670 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-09 18:08:48.693 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.simpleDiscoveryProperties
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:100)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:196)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:464)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.flipkart.customer.InvoiceServiceApplication.main(InvoiceServiceApplication.java:14)
+Caused by: java.lang.IllegalStateException: @ConditionalOnMissingBean did not specify a bean using type, name or annotation and the attempt to deduce the bean's type failed
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.validate(OnBeanCondition.java:657)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.<init>(OnBeanCondition.java:603)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:147)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanTypeDeductionException: Failed to deduce bean type for org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.simpleDiscoveryProperties
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.deducedBeanTypeForBeanMethod(OnBeanCondition.java:686)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.deducedBeanType(OnBeanCondition.java:676)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.<init>(OnBeanCondition.java:596)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2a098129]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.findMethod(ReflectionUtils.java:240)
+	at org.springframework.util.ReflectionUtils.findMethod(ReflectionUtils.java:221)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.findBeanMethod(OnBeanCondition.java:715)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.getMethodReturnType(OnBeanCondition.java:710)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.getReturnType(OnBeanCondition.java:694)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.deducedBeanTypeForBeanMethod(OnBeanCondition.java:683)
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/web/context/WebServerInitializedEvent
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.web.context.WebServerInitializedEvent
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 31 common frames omitted

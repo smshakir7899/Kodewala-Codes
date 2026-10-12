@@ -1,0 +1,17 @@
+2026-10-09 18:16:07.687 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-09 18:16:07.697 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application INVOICE-SERVICE with eureka with status DOWN
+2026-10-09 18:16:07.698 [RMI TCP Connection(4)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1791549967698, current=DOWN, previous=UP]
+2026-10-09 18:16:07.699 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/MSI:invoice-service:8080: registering service...
+2026-10-09 18:16:07.715 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-09 18:16:07.719 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2026-10-09 18:16:07.722 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/MSI:invoice-service:8080 - registration status: 204
+2026-10-09 18:16:07.739 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-09 18:16:07.741 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-10-09 18:16:07.759 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-09 18:16:07.762 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-09 18:16:07.782 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-09 18:16:07.797 [RMI TCP Connection(4)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-10-09 18:16:10.805 [DiscoveryClient-%d] WARN  c.n.discovery.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2026-10-09 18:16:10.808 [RMI TCP Connection(4)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-10-09 18:16:10.839 [RMI TCP Connection(4)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/MSI:invoice-service:8080 - deregister  status: 200
+2026-10-09 18:16:10.840 [RMI TCP Connection(4)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

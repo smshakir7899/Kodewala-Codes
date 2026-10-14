@@ -3,6 +3,9 @@ server:
   port: 8087
 
 spring:
+  application:
+    name: 002-practice-payment-service
+
   datasource:
     url: jdbc:mysql://localhost:3306/services_communication
     username: root
@@ -13,3 +16,16 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+    export:
+      zipkin:
+        endpoint: http://localhost:9411/api/v2/spans
+
+logging:
+  pattern:
+    correlation: "[${spring.application.name:}, traceId=%X{traceId:-}, spanId=%X{spanId:-}] "
+  include-application-name: false

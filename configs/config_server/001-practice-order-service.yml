@@ -1,3 +1,4 @@
+
 server:
   port: 8088
 
@@ -32,14 +33,13 @@ eureka:
 
 management:
   tracing:
-    enabled: true
     sampling:
       probability: 1.0
-
-  zipkin:
-    tracing:
-      endpoint: http://localhost:9411/api/v2/spans
+    export:
+      zipkin:
+        endpoint: http://localhost:9411/api/v2/spans
 
 logging:
   pattern:
-    level: "%5p [${spring.application.name:}, traceId=%X{traceId:-}, spanId=%X{spanId:-}]"
+    correlation: "[${spring.application.name:}, traceId=%X{traceId:-}, spanId=%X{spanId:-}] "
+  include-application-name: false

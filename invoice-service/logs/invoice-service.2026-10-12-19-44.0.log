@@ -1,0 +1,13 @@
+2026-10-12 19:44:01.226 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Fetching invoices - page: 0, size: 2
+2026-10-12 19:44:01.230 [http-nio-8080-exec-2] DEBUG c.f.customer.service.InvoiceService - Fetching invoices from DATABASE...
+2026-10-12 19:44:01.865 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Fetched 2 invoices from database for page: 0, size: 2
+2026-10-12 19:44:01.865 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Successfully prepared 2 invoice responses
+2026-10-12 19:44:02.845 [http-nio-8080-exec-2] INFO  c.f.c.controller.InvoiceController - Invoice list request complete successfully - page: 0, size: 2
+2026-10-12 19:44:12.078 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-10-12 19:44:12.079 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-10-12 19:44:12.079 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-10-12 19:44:12.079 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-10-12 19:44:12.079 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-10-12 19:44:12.079 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2026-10-12 19:44:12.079 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-10-12 19:44:12.141 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200

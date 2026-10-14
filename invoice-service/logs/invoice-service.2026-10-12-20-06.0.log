@@ -1,0 +1,77 @@
+2026-10-12 20:06:23.714 [main] INFO  c.f.c.InvoiceServiceApplication - Starting InvoiceServiceApplication using Java 21.0.3 with PID 30820 (C:\Users\mohdf\OneDrive\Attachments\Desktop\9th March Batch\invoice-service\target\classes started by mohdf in C:\Users\mohdf\OneDrive\Attachments\Desktop\9th March Batch\invoice-service)
+2026-10-12 20:06:23.718 [main] DEBUG c.f.c.InvoiceServiceApplication - Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-10-12 20:06:23.718 [main] INFO  c.f.c.InvoiceServiceApplication - The following 1 profile is active: "dev"
+2026-10-12 20:06:23.766 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8888
+2026-10-12 20:06:23.779 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=invoice-service, profiles=[default], label=null, version=8808e112498deaec749eb51899c35ed1f73f4ce1, state=
+2026-10-12 20:06:23.780 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8888
+2026-10-12 20:06:23.781 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=invoice-service, profiles=[dev], label=null, version=8808e112498deaec749eb51899c35ed1f73f4ce1, state=
+2026-10-12 20:06:24.649 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-12 20:06:24.651 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12 20:06:24.764 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interface.
+2026-10-12 20:06:24.780 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-12 20:06:24.780 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-12 20:06:24.793 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.flipkart.customer.repository.InvoiceRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-12 20:06:24.793 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-10-12 20:06:25.016 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b7b1358f-e632-3095-9de9-8586e3b001c7
+2026-10-12 20:06:25.324 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 20:06:25.337 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 20:06:25.339 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 20:06:25.339 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 20:06:25.419 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1633 ms
+2026-10-12 20:06:26.034 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-12 20:06:26.077 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-12 20:06:26.387 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12 20:06:26.414 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 20:06:26.674 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b7268db
+2026-10-12 20:06:26.677 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 20:06:26.721 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-12 20:06:26.737 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/9th_march_batch_dev]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: 9th_march_batch_dev/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12 20:06:27.787 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12 20:06:27.870 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12 20:06:27.949 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-12 20:06:28.082 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12 20:06:29.157 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestClient.
+2026-10-12 20:06:29.187 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-12 20:06:29.195 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-10-12 20:06:29.366 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-10-12 20:06:29.441 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-10-12 20:06:29.450 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-10-12 20:06:29.466 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-10-12 20:06:29.466 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-10-12 20:06:29.466 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-10-12 20:06:29.467 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-10-12 20:06:29.467 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-10-12 20:06:29.467 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-10-12 20:06:29.467 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-10-12 20:06:30.323 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-10-12 20:06:30.328 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-10-12 20:06:30.330 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-10-12 20:06:30.333 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1791815790332 with initial instances count: 0
+2026-10-12 20:06:30.341 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application INVOICE-SERVICE with eureka with status UP
+2026-10-12 20:06:30.343 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1791815790343, current=UP, previous=STARTING]
+2026-10-12 20:06:30.346 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/MSI:invoice-service:8080: registering service...
+2026-10-12 20:06:30.346 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 20:06:30.382 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 20:06:30.383 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2026-10-12 20:06:30.402 [main] INFO  c.f.c.InvoiceServiceApplication - Started InvoiceServiceApplication in 11.091 seconds (process running for 11.884)
+2026-10-12 20:06:30.546 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/MSI:invoice-service:8080 - registration status: 204
+2026-10-12 20:06:30.886 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 20:06:30.886 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 20:06:30.888 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-10-12 20:06:35.266 [http-nio-8080-exec-1] INFO  c.f.c.controller.InvoiceController - Recieved request to fetch invoices - page: 0, size: 2
+2026-10-12 20:06:37.819 [http-nio-8080-exec-1] INFO  c.f.customer.service.InvoiceService - Fetching invoices - page: 0, size: 2
+2026-10-12 20:06:37.820 [http-nio-8080-exec-1] DEBUG c.f.customer.service.InvoiceService - Fetching invoices from DATABASE...
+2026-10-12 20:06:38.304 [http-nio-8080-exec-1] INFO  c.f.customer.service.InvoiceService - Fetched 2 invoices from database for page: 0, size: 2
+2026-10-12 20:06:38.304 [http-nio-8080-exec-1] INFO  c.f.customer.service.InvoiceService - Successfully prepared 2 invoice responses
+2026-10-12 20:06:39.622 [http-nio-8080-exec-1] INFO  c.f.c.controller.InvoiceController - Invoice list request complete successfully - page: 0, size: 2

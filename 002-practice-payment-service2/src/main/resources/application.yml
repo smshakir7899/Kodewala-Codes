@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: 002-practice-payment-service
+
+  config:
+    import: "configserver:http://localhost:8888"

@@ -1,0 +1,6 @@
+2026-10-13 15:12:58.271 [http-nio-8080-exec-3] INFO  c.f.c.controller.InvoiceController - Recieved request to create invoice for customer: Sayyed
+2026-10-13 15:12:58.279 [http-nio-8080-exec-3] INFO  c.f.customer.service.InvoiceService - Creating invoice for customer: Sayyed
+2026-10-13 15:12:58.279 [http-nio-8080-exec-3] DEBUG c.f.customer.service.InvoiceService - Saving invoice with invoice ID: INV-6841
+2026-10-13 15:12:58.296 [http-nio-8080-exec-3] INFO  c.f.customer.service.InvoiceService - Invoice saved successfully with database ID: 34
+2026-10-13 15:12:58.296 [http-nio-8080-exec-3] INFO  c.f.customer.service.InvoiceService - Invoice response created successfully for invoice ID: 34
+2026-10-13 15:12:58.297 [http-nio-8080-exec-3] INFO  c.f.c.controller.InvoiceController - Invoice creation request complete successfullly for customer: Sayyed

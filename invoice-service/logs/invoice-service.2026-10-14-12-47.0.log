@@ -1,0 +1,8 @@
+2026-10-14 12:47:30.649 [http-nio-8080-exec-2] INFO  c.f.c.controller.InvoiceController - Recieved request to create invoice for customer: Sayyed
+2026-10-14 12:47:30.654 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Creating invoice for customer: Sayyed
+2026-10-14 12:47:30.655 [http-nio-8080-exec-2] DEBUG c.f.customer.service.InvoiceService - Saving invoice with invoice ID: INV-2114
+2026-10-14 12:47:30.655 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Calling Product Category Service through Feign
+2026-10-14 12:47:31.039 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Categories received: SUCCESS
+2026-10-14 12:47:31.101 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Invoice saved successfully with database ID: 37
+2026-10-14 12:47:31.101 [http-nio-8080-exec-2] INFO  c.f.customer.service.InvoiceService - Invoice response created successfully for invoice ID: 37
+2026-10-14 12:47:31.101 [http-nio-8080-exec-2] INFO  c.f.c.controller.InvoiceController - Invoice creation request complete successfullly for customer: Sayyed

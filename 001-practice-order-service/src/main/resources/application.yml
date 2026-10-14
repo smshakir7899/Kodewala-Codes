@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: 001-practice-order-service
+
+  config:
+    import: "configserver:http://localhost:8888"

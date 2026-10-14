@@ -1,0 +1,19 @@
+2026-10-13 15:19:50.718 [http-nio-8080-exec-5] INFO  c.f.c.controller.InvoiceController - Recieved request to create invoice for customer: Sayyed
+2026-10-13 15:19:50.725 [http-nio-8080-exec-5] INFO  c.f.customer.service.InvoiceService - Creating invoice for customer: Sayyed
+2026-10-13 15:19:50.726 [http-nio-8080-exec-5] DEBUG c.f.customer.service.InvoiceService - Saving invoice with invoice ID: INV-293
+2026-10-13 15:19:50.739 [http-nio-8080-exec-5] INFO  c.f.customer.service.InvoiceService - Invoice saved successfully with database ID: 35
+2026-10-13 15:19:50.739 [http-nio-8080-exec-5] INFO  c.f.customer.service.InvoiceService - Invoice response created successfully for invoice ID: 35
+2026-10-13 15:19:50.740 [http-nio-8080-exec-5] INFO  c.f.c.controller.InvoiceController - Invoice creation request complete successfullly for customer: Sayyed
+2026-10-13 15:19:57.500 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-13 15:19:57.502 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application INVOICE-SERVICE with eureka with status DOWN
+2026-10-13 15:19:57.502 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1791884997502, current=DOWN, previous=UP]
+2026-10-13 15:19:57.503 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/MSI:invoice-service:8080: registering service...
+2026-10-13 15:19:57.509 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-13 15:19:57.510 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2026-10-13 15:19:57.515 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-13 15:19:57.516 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-10-13 15:19:57.524 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/MSI:invoice-service:8080 - registration status: 204
+2026-10-13 15:19:57.537 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-13 15:19:57.541 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-13 15:19:57.558 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-13 15:19:57.569 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...

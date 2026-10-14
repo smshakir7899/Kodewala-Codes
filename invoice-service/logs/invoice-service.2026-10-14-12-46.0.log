@@ -1,0 +1,5 @@
+2026-10-14 12:46:00.063 [http-nio-8080-exec-1] INFO  c.f.customer.service.InvoiceService - Fetched 2 invoices from database for page: 0, size: 2
+2026-10-14 12:46:00.068 [http-nio-8080-exec-1] INFO  c.f.customer.service.InvoiceService - Successfully prepared 2 invoice responses
+2026-10-14 12:46:01.105 [http-nio-8080-exec-1] INFO  c.f.c.controller.InvoiceController - Invoice list request complete successfully - page: 0, size: 2
+2026-10-14 12:46:03.995 [http-nio-8080-exec-4] INFO  c.f.c.controller.InvoiceController - Recieved request to fetch invoices - page: 0, size: 2
+2026-10-14 12:46:04.224 [http-nio-8080-exec-4] INFO  c.f.c.controller.InvoiceController - Invoice list request complete successfully - page: 0, size: 2

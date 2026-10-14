@@ -111,6 +111,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.flipkart.customer.client.ProductCategoryClient;
 import com.flipkart.customer.entity.InvoiceEntity;
 import com.flipkart.customer.repository.InvoiceRepository;
 import com.flipkart.customer.request.InvoiceRequest;
@@ -123,7 +124,19 @@ public class InvoiceService
 	@Autowired
 	InvoiceRepository invoiceRepository;
 
+	private final ProductCategoryClient categoryClient;
+
 	private static final Logger logger = LoggerFactory.getLogger(InvoiceService.class);
+
+	public InvoiceService(ProductCategoryClient categoryClient)
+	{
+		this.categoryClient = categoryClient;
+	}
+
+	public String getCategories()
+	{
+		return categoryClient.getCategories();
+	}
 
 	public InvoiceResponse createInvoice(InvoiceRequest invoiceRequest)
 	{
@@ -139,6 +152,12 @@ public class InvoiceService
 		entity.setStatus("PAID");
 
 		logger.debug("Saving invoice with invoice ID: {}", entity.getInvId());
+
+		logger.info("Calling Product Category Service through Feign");
+
+		String categories = categoryClient.getCategories();
+
+		logger.info("Categories received: {}", categories);
 
 		InvoiceEntity responseEntity = invoiceRepository.save(entity);
 

@@ -6,7 +6,7 @@ spring:
     name: 003-practice-delivery-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/9th_march_batch
+    url: jdbc:mysql://localhost:3306/services_communication
     username: root
     password: Password@123
     driver-class-name: com.mysql.cj.jdbc.Driver
